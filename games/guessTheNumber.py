@@ -22,10 +22,10 @@ for guessesTaken in range(6):
     if guess == number:
         break
 
-    if guess == number:
+if guess == number:
         guessesTaken = str(guessesTaken + 1)
         print('Good job, ' + myName + '! You guessed my number in ' + guessesTaken + ' guesses!')
 
-    if guess != number:
+if guess != number:
         number = str(number)
         print('Nope. The number I was thinking of was ' + number)
